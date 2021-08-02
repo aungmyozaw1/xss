@@ -1,0 +1,95 @@
+for testing xss 
+
+mmanime.org
+shop.com.mm
+http://themimu.info/
+
+xss ctf and real website
+
+ctf
+
+dvwa high attack
+
+low and medium is easy for me 
+medium testing strange
+they block <script> but <> is change to &lt;&gt;
+
+bwapp
+owasp juice shop
+
+https://xss-quiz.int21h.jp/
+
+all type of permeter is vulnulity 
+xss test with burp suite 
+limited 
+event handler <> is block
+i should look " ' and their excluted
+i need to know http respone for xss
+for this website review link =>https://www.quora.com/What-is-the-step-by-step-method-for-finding-XSS-vulnerability-in-a-website
+
+prompt.ml 
+
+no - 1 =>  > is block so <svg/onload='alert(1)'
+no -2 => this is strange for me <svg><script>alert&#40;1)</script> , <svg> is string
+no -3 => is not strange --!><script>alert(1)</script>
+
+http://sudo.co.il/xss/ solution
+
+level 5.1 => payload '; alert(1) ;'
+5.2 solutions , payload => \';alert(1);<!--
+https://security.stackexchange.com/questions/134208/how-to-bypass-backslash-escaping-xss
+level 6 is easy for me => payload \%27;alert(1);//
+
+
+google xss
+
+1 and 2 are easy 
+3 I was learn to see code for bug bounty hunter
+3 image attack method
+how to attack image xss
+4.four is a hard for me
+javascript all are will be vulnable ? and = is very improtant for 
+; this symbol is important in this game , you should test xss reflect and other
+xss finding 
+solved link => http://offsec-sureshatt.blogspot.com/2017/04/google-xss-game-solving-level-4.html
+https://gist.github.com/djadmin/737a77b87d0bad8a9c79
+5 is to test file for me this is file confirm so payload
+javascript:alert(1)
+
+https://portswigger.net/web-security/all-labs
+
+no 1 => is very simple
+no 2 => is onclick accout covery 
+
+
+++++++++++++++++++++++++++++++++++++
+
+
+
+
+mmanime.org
+
+without filter testing 
+
+search           reflect 
+' and "             \' and \"
+website will block "' with \
+but / insert  " ' payload will work
+<script>alert(/thisistesting/)</script>
+i was discover method
+http://mmanime.org/?s=%22+onclick%3Dalert%281%29%2F%2F => " onclick=alert(1)//
+
+
+question
+
+what is url reflect? , Is is important?
+is url redirect and search effect are the same
+____________________
+http://themimu.info/
+
+this website block all characters
+login form attack
+this website string for me 
+this have two url for me 
+302 and 200 this is strange for me
+
